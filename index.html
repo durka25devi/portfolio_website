@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global */
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #c2cbe4;
+            color: #2c2c2c;
+            line-height: 1.6;
+        }
+/* Header */
+        header {
+            background: linear-gradient(135deg, #192d5f, #295dec);
+            color: rgb(243, 243, 243);
+            padding: 40px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            font-weight: 700;+
+            letter-spacing: 1px;
+        }
+
+        header h2 {
+            margin-top: 8px;
+            font-size: 22px;
+            font-weight: 400;
+            opacity: 0.9;
+        }
+/* Section */
+        section {
+            padding: 30px 15px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section h3 {
+            font-size: 22px;
+            color: #1f3c88;
+            margin-bottom: 20px;
+            border-left: 5px solid #3a6cf4;
+            padding-left: 10px;
+        }
+/* Card */
+        .card {
+            background-color: #f5f5f5;
+            padding: 18px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            
+        }
+/* Text */
+        p {
+            font-size: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            font-size: 15px;
+            margin-bottom: 6px;
+        }
+
+        h4 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #3a6cf4;
+        }
+/* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1f3c88;
+            color: white;
+            font-size: 15px;
+        }
+/* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 26px;
+            }
+
+            header h2 {
+                font-size: 18px;
+            }
+
+            section h3 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <!-- Header -->
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <h1>Durkadevi</h1>
+    </header>
+<!-- About -->
+    <section>
+        <h3>About Me</h3>
+        <div class="card">
+            <p>
+                I am a motivated student with a strong interest in software development, Data Structures and Algorithms and
+                Artificial Intelligence. I enjoy learning new technologies and building
+                beginner-friendly projects that solve real-world problems.
+            </p>
+        </div>
+    </section>
+<!-- Skills -->
+    <section>
+        <h3>Skills</h3>
+        <div class="card">
+            <ul>
+                <li>Python (Basics)</li>
+                <li>HTML & CSS</li>
+                <li>Javascript (Basics)</li>
+                <li>Java (Fundamentals)</li>
+                <li>Machine Learning Basics</li>
+                <li>Python Libraries (Numpy, Pandas, Scikit-learn, Matplotlib)</li>
+            </ul>
+        </div>
+    </section>
+<!-- Projects -->
+    <section>
+        <h3>Projects</h3>
+
+        <div class="card">
+            <h4>Image Classification using CNN (Plant Disease Detection)</h4>
+            <p>
+                Developed a CNN-based image classification model to identify plant diseases.
+                Achieved around 88% accuracy using hyperparameter tuning.
+            </p>
+        </div>
+
+        <div class="card">
+            <h4>Personal Portfolio Website</h4>
+            <p>
+                Designed and developed a responsive personal portfolio website using HTML and CSS for Technohacks Internship.
+              
+            </p>
+        </div>
+    </section>
+<!-- Achievements -->
+    <section>
+        <h3>Achievements</h3>
+        <div class="card">
+            <ul>
+                <li>Participated in the Road Safety Hackathon conducted by NHAI and HOAI and proposed
+                a solution to improve road safety.</li> 
+                <li>Proposed a scalable AI-driven solution for Kochi Metro Rail Limited (KMRL) in SIH </li> 
+
+                </ul>
+        </div>
+    </section>
+ <!-- Links -->
+<section>
+    <h3>Links</h3>
+    <div class="card">
+        <ul>
+            <li>
+                GitHub : 
+                <a href="https://github.com/durka25devi" target="_blank">
+                    https://github.com/durka25devi
+                </a>
+            </li>
+
+            <li>
+                LinkedIn : 
+                <a href="https://www.linkedin.com/in/durka-devi-92893a354/ " target="_blank">
+                   https://www.linkedin.com/in/durka-devi-92893a354/ 
+                </a>
+            </li>
+
+            <li>
+                LeetCode :
+                <a href="https://leetcode.com/u/Durkadevi/" target="_blank">
+                    https://leetcode.com/u/Durkadevi/
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Footer-->
+    <footer>
+        <p>End of the site</p>
+    </footer>
+
+</body>
+</html>
